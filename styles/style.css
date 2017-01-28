@@ -1,7 +1,7 @@
 
 html{
 	font-size:10px;
-	background-color:#535555;
+	background-color:pink;
 	font-family: 'Droid Serif', serif;
 }
 
@@ -10,7 +10,7 @@ h1 {
 	color:blue;
 	font-family: 'Tangerine', cursive;
 	font-size: 45px;
-	background-color:green;
+	background-color:#96ed87;
 }
 
 h2 {
@@ -18,12 +18,12 @@ h2 {
 	color:black;
 	font-family: 'Tangerine', cursive;
 	font-size: 25px;
-	background-color:green;
+	background-color:#96ed87;
 }
 
 ul li{
 	float: left;
-	background-color:green;
+	background-color:#96ed87;
 	border: 1px solid black;
 	margin-right:320px;
 	font-size: 15px;
@@ -32,7 +32,7 @@ ul li{
 ul {
 	float: left;
 	height: 20px;
-	background-color:green;
+	background-color:#96ed87;
 }
 
 
