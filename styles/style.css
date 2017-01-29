@@ -19,7 +19,7 @@ h2 {
 	text-align:center;
 	color:black;
 	font-family: "楷体";
-	font-size: 35px;
+	font-size: 25px;
 	background-color:#96ed87;
 	background-image: linear-gradient(to right, #FCEDD8, yellow 50%, #FCEDD8);
 	background-repeat: no-repeat;
@@ -29,8 +29,8 @@ h2 {
 ul li{
 	float: left;
 	background-image: linear-gradient(to bottom, orange, #F9D9AE);
-	border: 1px solid black;
-	margin-right:320px;
+	/*border: 1px solid black;*/
+	margin-right:200px;
 	font-size: 15px;
 	font-family: "楷体";
 }
@@ -57,8 +57,10 @@ a {
 }
 
 p {
-  line-height: 2;
-  word-spacing: 0.1rem;
+	line-height: 2;
+	word-spacing: 0.1rem;
+	font-size: 15px;
+	font-family: "楷体";
 }
 
 img {
