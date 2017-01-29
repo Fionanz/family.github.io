@@ -1,0 +1,67 @@
+
+html{
+	font-size:10px;
+	font-family: "幼圆";
+	background: url(../images/background.jpg) repeat;
+	background-attachment: fixed;
+	background-color:#F9D9AE;
+}
+
+h1 {
+	text-align:center;
+	color:red;
+	font-family: 'Tangerine', cursive;
+	font-size: 45px;
+}
+
+h2 {
+	
+	text-align:center;
+	color:black;
+	font-family: "楷体";
+	font-size: 35px;
+	background-color:#96ed87;
+	background-image: linear-gradient(to right, #FCEDD8, yellow 50%, #FCEDD8);
+	background-repeat: no-repeat;
+	background-position: 99% center;
+}
+
+ul li{
+	float: left;
+	background-image: linear-gradient(to bottom, orange, #F9D9AE);
+	border: 1px solid black;
+	margin-right:320px;
+	font-size: 15px;
+	font-family: "楷体";
+}
+
+ul {
+	float: left;
+	height: 20px;
+}
+
+
+ul li:last-child {
+	margin-right: 0;
+}
+
+body {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+a {
+	line-height:2;
+	word-spacing:0.1rem;
+}
+
+p {
+  line-height: 2;
+  word-spacing: 0.1rem;
+}
+
+img {
+  float: center;
+  margin: 0 30px 0 0;
+}
