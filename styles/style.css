@@ -7,6 +7,28 @@ html{
 	background-color:#F9D9AE;
 }
 
+* {
+	 margin: 0; 
+     padding: 0;
+}
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+	border:1px solid;
+}
+header{
+}
+nav{
+	/*background: #dcd9c0;*/
+	
+	width: 150px;
+	float:left;
+}
+article{
+	width: 600px;
+	float: left;
+}
+
 h1 {
 	text-align:center;
 	color:red;
@@ -30,20 +52,25 @@ ul li{
 	float: left;
 	background-image: linear-gradient(to bottom, orange, #F9D9AE);
 	/*border: 1px solid black;*/
-	margin-right:200px;
+	margin-right:100px;
 	font-size: 15px;
 	font-family: "楷体";
+	width:100px;
 }
 
 ul {
-	float: left;
+	
 	height: 20px;
+	float: left;
+	padding: 2px;
+	margin-right: 4px;
 }
 
 
 ul li:last-child {
 	margin-right: 0;
 }
+
 
 body {
   width: 90%;
@@ -54,9 +81,18 @@ body {
 a {
 	line-height:2;
 	word-spacing:0.1rem;
+	font-size: 15px;
+	font-family: "楷体";
 }
 
 p {
+	line-height: 2;
+	word-spacing: 0.1rem;
+	font-size: 15px;
+	font-family: "楷体";
+}
+
+form {
 	line-height: 2;
 	word-spacing: 0.1rem;
 	font-size: 15px;
